@@ -1,4 +1,6 @@
-# Equator Finance: Web Application (`equator-app`)
+# Equator Finance: Web Application (`equator-frontend`)
+
+> 📖 **Central Protocol Overview:** For the master architecture, protocol vision, and multi-repo roadmap, see the [Equator Finance Master Readme](https://github.com/Equator-Finance/.github).
 
 > **What is Equator Finance?**  
 > Equator Finance is a decentralized B2B FX Forward Protocol built on Stellar (Soroban) for emerging markets. It allows corporate importers and OTC liquidity desks to trustlessly lock in future exchange rates using USDC-settled Non-Deliverable Forwards (NDFs), while routing idle collateral into decentralized yield venues to significantly offset hedging costs.
@@ -9,7 +11,7 @@
 
 ## 🎯 Repository Scope & Overview
 
-`equator-app` delivers an institutional-grade web application tailored for two distinct user personas:
+`equator-frontend` delivers an institutional-grade web application tailored for two distinct user personas:
 1. **Corporate Importers (CFO Portal):** A clean financial dashboard to create RFQs, view active FX hedges, and monitor margin safety.
 2. **OTC Market Makers (Desk Terminal):** A professional trading interface to view incoming RFQ flows, quote rates, and manage collateral portfolios.
 
@@ -18,7 +20,7 @@
 ## 🛠 Project Structure (Target)
 
 ```text
-equator-app/
+equator-frontend/
 ├── src/
 │   ├── components/
 │   │   ├── importer/    # RFQ wizard, hedge portfolio, health indicators
