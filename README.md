@@ -40,7 +40,7 @@ equator-frontend/
 ### Phase 1: CFO Portal & OTC Trading Terminal MVP
 * **Goal:** Deliver an intuitive UI for negotiating RFQs, connecting wallets, and managing USDC escrow contracts.
 * **Key Tasks & Deliverables:**
-  * **Wallet Integration:** Integrate `@stellar/freighter-api` and `@stellar/stellar-sdk` for seamless transaction signing.
+  * **Tech Stack:** Next.js (React), TypeScript, Tailwind CSS, Shadcn UI, `@stellar/stellar-sdk`, `@stellar/freighter-api`.
   * **Importer RFQ Wizard:** Interactive form for CFOs to select currency pairs (e.g., NGN/USD), notional amount, and maturity duration (30/60/90 days).
   * **OTC Desk Terminal:** Orderbook UI for desks to view open RFQs, set forward rates, and approve margin locking.
   * **Active Hedge Dashboard:** Real-time summary displaying locked margin, contract status, strike rate, and settlement countdown.
