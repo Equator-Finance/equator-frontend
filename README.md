@@ -25,7 +25,7 @@
 
 ---
 
-## 🏗 Repository-Specific Frontend Architecture
+## 🏗 Frontend Architecture
 
 The web application is structured around dual persona portals sharing a unified Stellar wallet and WebSockets connection layer.
 
